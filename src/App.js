@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
+import ListeProfil from './components/ListeProfil';
+const liste =[
+  {
+    name: "Salsabil Kaabachi", 
+    bio :"To be or not to be ",
+    profession:"Technicin supérieur en réseaux informatique",
+  }
+]
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+     <ListeProfil profil={liste}/>
+</div>
+ );
+ }
+ 
 export default App;

@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
 .App {
   text-align: center;
+  padding-left: 500px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  
+  
+  background-image: url("https://previews.123rf.com/images/vyshniakova/vyshniakova1707/vyshniakova170700084/83145958-woman-s-accessories-and-cute-stationery-on-pink-background-top-view.jpg")  ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+img{
+  border-radius: 30px;
+  padding-top: 10px;
+  width: 400px;
+}
+.name{
+  font-family: 'Lobster', cursive;
+  color: rgb(226, 43, 211);
+  font-size: 50px;
+}
+.text{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,20 +34,10 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +47,5 @@
     transform: rotate(360deg);
   }
 }
+
+
